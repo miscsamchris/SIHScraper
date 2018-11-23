@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import requests
 import re
 from docx import Document
-from docx.shared import Inches
 f=requests.get("https://www.sih.gov.in/sih2019ProblemStatements")
 soup = BeautifulSoup(f.content, 'html.parser')
 r=soup.find("tbody")
