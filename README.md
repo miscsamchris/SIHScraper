@@ -6,4 +6,4 @@ Just download the .py file and make sure that the previously mentioned packages 
 
 If packages are not available run 
 
-pip install -r requirements.txt
+<code>pip install -r requirements.txt</code>
