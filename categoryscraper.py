@@ -25,7 +25,7 @@ for i in x:
             a=re.sub(r"\n{2,20}","\n",a)
             row.append(a)
     table.append(row)
-for i in range(0,47):
+for i in range(2,51):
     f=requests.get("https://www.sih.gov.in/sih2019ProblemStatements?page="+str(i))
     soup = BeautifulSoup(f.content, 'html.parser')
     r=soup.find("tbody")
